@@ -1,0 +1,255 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-20T04:07:34.488Z",
+        "line": 2,
+        "name": "I want to verify the URL",
+        "description": "",
+        "id": "feature-to-test-the-functionality-of-the-browser;i-want-to-verify-the-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15159751100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the browser",
+            "match": {
+              "location": "stepdefinition.first.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3589504800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter the \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinition.first.enter_the(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3563132200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "page is displayed",
+            "match": {
+              "location": "stepdefinition.first.page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test the functionality of the browser",
+    "description": "",
+    "id": "feature-to-test-the-functionality-of-the-browser",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/first.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-20T04:07:56.932Z",
+        "line": 10,
+        "name": "Checking the functionality for valid data",
+        "description": "",
+        "id": "to-verify-the-login-functionality;checking-the-functionality-for-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2857255400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user on the webpage \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.second.user_on_the_webpage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 326509700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user gives username as \u0027standard_user\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027standard_user\u0027",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.second.user_gives_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3480854100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gives password as \u0027secret_sauce\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027secret_sauce\u0027",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.second.user_gives_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3447002200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the LoginButton",
+            "match": {
+              "location": "stepdefinition.second.click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3693391100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to product backlog page",
+            "match": {
+              "location": "stepdefinition.second.user_navigates_to_product_backlog_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-20T04:08:10.774Z",
+        "line": 11,
+        "name": "Checking the functionality for valid data",
+        "description": "",
+        "id": "to-verify-the-login-functionality;checking-the-functionality-for-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3316343100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user on the webpage \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.second.user_on_the_webpage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 561073600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user gives username as \u0027problem_user\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027problem_user\u0027",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.second.user_gives_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3437865300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gives password as \u0027secret_sauce\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027secret_sauce\u0027",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.second.user_gives_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3577421600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the LoginButton",
+            "match": {
+              "location": "stepdefinition.second.click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3756504800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to product backlog page",
+            "match": {
+              "location": "stepdefinition.second.user_navigates_to_product_backlog_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login functionality",
+    "description": "",
+    "id": "to-verify-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/second.feature",
+    "tags": []
+  }
+]
